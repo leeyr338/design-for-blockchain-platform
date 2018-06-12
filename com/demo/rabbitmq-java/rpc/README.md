@@ -4,23 +4,25 @@
 ```
 
 ### Run server
-We start two console here to say we have two server-instances.
+We start two console here to say that we have two server-instances.
 
-start one console, and 
+Start one console, and 
 ```
 ./start_server.sh
 ```
-start another one, and
+Start another one, and
 ```
 ./start_server.sh
 ```
 
 ### Run client
 Run the script in two consoles, showing that the rpc can do a right response in multi-clients sutiation.
+On one console, run
 ```
 ./1_rpc_client.sh 
 ```
 
+And the other one, run
 ```
 ./2_rpc_client.sh
 ```
@@ -105,7 +107,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
  [x] Requesting fib(15)
  [.] Got '610'
 ```
-#### clent 2
+#### client 2
 ```
 [x] Requesting fib(30)
  [.] Got '832040'
@@ -158,5 +160,5 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ```
 
 ### Reference to
-![Remote procedure call (RPC)](https://www.rabbitmq.com/tutorials/tutorial-six-java.html)
+[Remote procedure call (RPC)](https://www.rabbitmq.com/tutorials/tutorial-six-java.html)
 
